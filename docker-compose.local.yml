@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  app:
+    image: app-image
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - db
+
+  db:
+    image: postgres:14
+    volumes:
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db:

@@ -1,0 +1,28 @@
+$input-btn-line-height: 2.2;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// FilePond
+@import '~filepond/dist/filepond.css';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+// PhotoSwipe
+@import '~photoswipe/dist/photoswipe.css';
+
+body {
+	
+}
+
+img {
+	max-width: 100%;
+}
